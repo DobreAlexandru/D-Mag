@@ -1,0 +1,149 @@
+body {
+  background: rgb(41, 4, 30);
+  background: linear-gradient(to right, #4686cf 0%, #cf3c68 100%);
+  font-family: "Nunito", sans-serif;
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 25rem;
+}
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css");
+
+.grad {
+  color: linear-gradient(to right, #4686cf 0%, #cf3c68 100%);
+}
+
+.cart-pop-up {
+  border-radius: 25px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal-content {
+  border-radius: 25px;
+}
+
+.footer {
+  border-radius: 25px;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  justify-content: center;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 20rem;
+}
+
+.checkout-box {
+  border-radius: 25px;
+  margin-top: 50px;
+  background-color: white;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.white {
+  color: white;
+}
+.custom-dot-list-style {
+  margin-top: 50px;
+}
+
+.btn {
+  color: black;
+}
+.btn:hover {
+  color: #cf3c68;
+}
+
+.btn:onclick {
+  color: #4686cf;
+}
+.cart-btn {
+  color: #cf3c68;
+}
+.cart-btn:hover {
+  color: #cf3c68;
+}
+.cart-btn:onclick {
+  color: #4686cf;
+}
+
+.nav-btn {
+  color: #4686cf;
+}
+
+.nav-btn:hover {
+  color: #cf3c68;
+}
+.nav-btn.btn:onclick {
+  color: #cf3c68;
+}
+
+.navbar-pill {
+  margin-left: -10px;
+  margin-top: -15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.item-card {
+  border-radius: 25px;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.checkout-next-btn {
+  float: right;
+}
+.checkout-back-btn {
+  float: left;
+}
+
+.item-card-cart-btn {
+  float: right;
+}
+.cart-title {
+  color: white;
+  margin-top: 30px;
+}
+
+.cart-item {
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.cart-item-image {
+  width: 150px;
+  height: 150px;
+}
+
+.item-image {
+  padding-top: 2em;
+  width: 250px;
+  height: 250px;
+  pointer-events: none;
+  user-select: none;
+  display: flex;
+  align-self: center;
+}
+
+.item-card-text {
+  pointer-events: none;
+  user-select: none;
+}
+
+.cart-item-btn-grp {
+  display: flex;
+  justify-content: center;
+}
+
+.spinner {
+  min-height: 100vh;
+  align-items: center;
+}
